@@ -55,3 +55,11 @@ HTTP
     loop.run_until_complete(asyncio.gather(*tasks))
     loop.close()
 
+
+Links
+-----
+* PyPI_
+* GitHub_
+
+.. _PyPI: https://pypi.python.org/pypi/aiogrn/
+.. _GitHub: https://github.com/hhatto/aiogrn
