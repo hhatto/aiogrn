@@ -1,10 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+import sys
 try:
     from setuptools import setup
 except ImportError:
     from distutils.core import setup
+
+if sys.version_info < (3, 5, 0):
+    raise RuntimeError("aiogrn requires Python 3.5+")
 
 exec(open('aiogrn/_version.py').read())
 
