@@ -1,5 +1,4 @@
 import struct
-import sys
 import asyncio
 import aiohttp
 import async_timeout
